@@ -1,0 +1,49 @@
+{
+    "user": {
+        "fullName": "Tracy Marutla",
+        "photo": "images/your_photo.jpg"
+    },
+    "city": {
+        "name": "Berlin",
+        "photo": "images/city_photo.jpg",
+        "description": "Berlin is one of the few cities that is home to three UNESCO World Heritage Sites. It includes the famous Museumsinsel (Museum Island) and the Prussian palaces and gardens. The German capital was also awarded the accolade of 'UNESCO City of Design'."
+    },
+    "foreignLanguage": {
+        "language": "German",
+        "phrases": [
+            {
+                "englishPhrase": "Hello",
+                "foreignLanguage": "Hallo"
+            },
+            {
+                "englishPhrase": "Goodbye",
+                "foreignLanguage": "Verabschiedung"
+            },
+            {
+                "englishPhrase": "I am a foodie!",
+                "foreignLanguage": "Ich bin ein Feinschmecker!"
+            },
+            {
+                "englishPhrase": "Enjoy the food!",
+                "foreignLanguage": "Genieße das Essen!"
+            }
+        ]
+    },
+    "favouriteSubjects": [
+        {
+            "name": "Agile Rapid Knowledge Acquisition",
+            "description": "Agile Acquisition is acquisition using agile or iterative development...",
+            "photo": "images/subject1.jpg"
+        },
+        {
+            "name": "Full Stack Web Development",
+            "description": "It is the process of developing both the frontend and backend of applications...",
+            "photo": "images/subject2.jpg"
+        },
+        {
+            "name": "4IR Advanced Bootcamp",
+            "description": "The 4IR Bootcamp initiative is tailored specifically to align career choices...",
+            "photo": "images/subject3.jpg"
+        }
+    ]
+}
