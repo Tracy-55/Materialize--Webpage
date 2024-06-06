@@ -72,6 +72,9 @@ table.highlight tbody tr:hover {
 table.highlight th {
     text-align: left;
 }
+table.text{
+    font: black;
+}
 
 /* Subject Cards */
 .col.s12.m4 {
