@@ -1,12 +1,9 @@
-import { defineConfig } from 'vite';
+import data from "./data.json";
+// assert {type:'json'};
 import handlebars from 'vite-plugin-handlebars';
-import data from './public/data.json';
 
-export default defineConfig({
-  plugins: [handlebars({
-    context: {
-      data
-    }
-  })],
-  publicDir: 'public'
-});
+export default {
+    plugins: [handlebars({
+      context : data
+    })]
+  };

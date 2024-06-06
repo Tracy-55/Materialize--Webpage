@@ -1,0 +1,117 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('public/autumn 2.jpg');
+    background-size: cover
+}
+
+
+header.top {
+    background: #3a5a40 ;
+    background-image:url('public/autumn.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.top .top-title {
+    font-size: 50px;
+    color:black;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    padding: 20px;
+}  
+
+.section {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    background-image:url('public/brown.jpg') ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2, .section h3, .section h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #00796b;
+}
+
+.section p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.card {
+    margin-bottom: 20px;
+    color: #bc6c25;
+    
+}
+
+.card-content {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+
+
+}
+
+.bordered-img {
+    border: 5px solid #00796b;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+table.highlight {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table.highlight th, table.highlight td {
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row .col {
+    margin-bottom: 20px;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (min-width: 600px) {
+    header.top .top-title {
+        font-size: 60px;
+    }
+
+    .section h2, .section h3, .section h4 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    header.top {
+        height: 400px;
+    }
+
+    header.top .top-title {
+        font-size: 70px;
+    }
+
+    .section h2, .section h3, .section h4 {
+        font-size: 32px;
+    }
+}
