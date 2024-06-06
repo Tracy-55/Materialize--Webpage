@@ -23,18 +23,21 @@ h1 {
     color: #2c3e50;
     font-size: 2.5em;
     margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
     color: #34495e;
     font-size: 2em;
     margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h3 {
     color: #16a085;
     font-size: 1.5em;
     margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Image Styles */
