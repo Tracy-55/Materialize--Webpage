@@ -73,7 +73,8 @@ table.highlight th {
     text-align: left;
 }
 table.text{
-    font: black;
+    font: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Subject Cards */
