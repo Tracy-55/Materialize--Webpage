@@ -32,17 +32,17 @@
     "favouriteSubjects": [
         {
             "name": "Agile Rapid Knowledge Acquisition",
-            "description": "Agile Acquisition is acquisition using agile or iterative development...",
+            "description": "Agile Acquisition is acquisition using agile or iterative development",
             "photo": "images/subject1.jpg"
         },
         {
             "name": "Full Stack Web Development",
-            "description": "It is the process of developing both the frontend and backend of applications...",
+            "description": "It is the process of developing both the frontend and backend of applications",
             "photo": "images/subject2.jpg"
         },
         {
             "name": "4IR Advanced Bootcamp",
-            "description": "The 4IR Bootcamp initiative is tailored specifically to align career choices...",
+            "description": "The 4IR Bootcamp initiative is tailored specifically to align career choices",
             "photo": "images/subject3.jpg"
         }
     ]

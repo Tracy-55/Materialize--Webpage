@@ -19,14 +19,14 @@ body {
 
 /* Headings */
 h1 {
-    color: #2c3e50;
+    color: #0c63ba;
     font-size: 2.5em;
     margin-bottom: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-    color: #34495e;
+    color: #0c63ba;
     font-size: 2em;
     margin-bottom: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -110,8 +110,8 @@ table.text{
     }
 
     .responsive-img.circle {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
     }
 
     .col.s12.m4 {
