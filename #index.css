@@ -1,0 +1,123 @@
+body {
+    background-image: url('Public/images/forest-sunbeams-trees-sunlight-70365.jpeg');
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    background-image: url('Public/images/autumn 2.jpg');
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 40px;
+}
+
+/* Headings */
+h1 {
+    color: #0c63ba;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: #0c63ba;
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    color: #16a085;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Image Styles */
+.responsive-img.circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Table Styles */
+table.highlight th,
+table.highlight td {
+    padding: 15px;
+}
+
+table.highlight thead th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+table.highlight tbody tr:hover {
+    background-color: #ecf0f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table.highlight th {
+    text-align: left;
+}
+
+table.text {
+    font: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Subject Cards */
+.col.s12.m4 {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.col.s12.m4 img {
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    .responsive-img.circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .col.s12.m4 {
+        margin-bottom: 15px;
+    }
+}
