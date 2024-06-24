@@ -33,26 +33,39 @@
         </div>
     </div>
 
-    <div class="section">
-        <h2>A Foreign Language</h2>
-        <p>German</p>
-        <table class="highlight">
-            <thead>
-                <tr>
-                    <th>English</th>
-                    <th>{{foreignLanguage.language}}</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{#each foreignLanguage.phrases}}
-                <tr>
-                    <td>{{this.englishPhrase}}</td>
-                    <td>{{this.foreignLanguage}}</td>
-                </tr>
-                {{/each}}
-            </tbody>
-        </table>
-    </div>
+    <section class="section language">
+            <p style="font-size: 40px;">A Foreign Language</p>
+            <h3 class="lang">German</h3>
+            <p style="font-size:30px;">I would like to learn <em>German</em> because it's an exotic language.</p>
+
+            <table class="highlight">
+                <thead>
+                    <tr>
+                        <th>English</th>
+                        <th>German</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hello</td>
+                        <td>Hallo</td>
+                    </tr>
+                    <tr>
+                        <td>Goodbye</td>
+                        <td>Verabschiedung</td>
+                    </tr>
+                    <tr>
+                        <td>I am a foodie!</td>
+                        <td>Ich bin ein Feinschmecker!</td>
+                    </tr>
+                    <tr>
+                        <td>Enjoy the food!</td>
+                        <td>Genieße das Essen!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
 
     <section class="section subjects">
         <h3 class="font-heavy2">Favourite Subjects</h3>
