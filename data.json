@@ -32,17 +32,17 @@
     "favouriteSubjects": [
         {
             "name": "Agile Rapid Knowledge Acquisition",
-            "description": "Agile Acquisition is acquisition using agile or iterative development",
+            "description": "Agile Acquisition is acquisition using agile or iterative development. Agile or Iterative Development, with respect to software: means acquisition pursuant to a methodology for delivering multiple, rapid, incremental capabilities to the user for operational use, evaluation, and feedback.",
             "photo": "images/subject1.jpg"
         },
         {
             "name": "Full Stack Web Development",
-            "description": "It is the process of developing both the frontend and backend of applications",
+            "description": "It is the process of developing both the frontend and backend of applications, Any application has a frontend (user-facing) component and a backend (database and logic) component. The frontend contains the user interface and code related to user interactions with the application.",
             "photo": "images/subject2.jpg"
         },
         {
             "name": "4IR Advanced Bootcamp",
-            "description": "The 4IR Bootcamp initiative is tailored specifically to align career choices",
+            "description": "The 4IR Bootcamp initiative is tailored specifically to align career choices and studies of individuals to growing industries, relatively new.",
             "photo": "images/subject3.jpg"
         }
     ]
