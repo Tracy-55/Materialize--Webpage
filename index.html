@@ -15,7 +15,7 @@
 <div class="container">
     <div class="section">
         <h1>{{user.fullName}}</h1>
-        <img src="Public/images/tracymarutla.jpeg" alt="{{user.fullName}}" class="responsive-img circle">
+        <img src="Public/images/tracymarutla.jpeg" width="500" alt="{{user.fullName}}" class="responsive-img circle">
     </div>
 
     <div class="section">
@@ -51,16 +51,29 @@
         </table>
     </div>
 
-    <div class="section">
-        <h2>Favourite Subjects</h2>
+    <section class="section subjects">
+        <h3 class="font-heavy2">Favourite Subjects</h3>
         <div class="row">
-            {{#each favouriteSubjects}}
             <div class="col s12 m4">
-                <h3>{{this.name}}</h3>
-                <img src="Public/images/4ir.jpg" alt="{{this.name}}" class="responsive-img">
-                <p>{{this.description}}</p>
+                <h4>Agile Rapid Knowledge Acquisition</h4>
+                <img src="Public/images/Agile-Testing.avif" class="responsive-img" alt="Subject 1">
+                <p>Agile Acquisition” as “acquisition using agile or iterative development.”
+                    Agile or Iterative Development, with respect to software:
+                    means acquisition pursuant to a methodology for delivering multiple,
+                    rapid, incremental capabilities to the user for operational use, evaluation, and feedback.</p>
             </div>
-            {{/each}}
+            <div class="col s12 m4">
+                <h4>Full Stack Web Development</h4>
+                <img src="Public/images/full-stack-web-development.jpg" class="responsive-img" alt="Subject 2">
+                <p>It is process of developing both the frontend and backend of applications.
+                    Any application has a frontend (user-facing) component and a backend (database and logic) component.
+                    The frontend contains the user interface and code related to user interactions with the application.</p>
+            </div>
+            <div class="col s12 m4">
+                <h4>4IR Advanced Bootcamp</h4>
+                <img src="Public/images/4ir.jpg" class="responsive-img" alt="Subject 3">
+                <p>The 4IR Bootcamp initiative is tailored specifically to align career choices
+                    and studies of individuals to growing industries, relatively new.</p>
+            </div>
         </div>
-    </div>
-</div>
+    </section>
