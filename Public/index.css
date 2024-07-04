@@ -7,7 +7,7 @@ body {
 .container {
     margin-top: 30px;
     padding: 20px;
-    background-image: url('Public/images/autumn 2.jpg');
+    background-image: url('Public/images/plain.jpg');
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -19,14 +19,14 @@ body {
 
 /* Headings */
 h1 {
-    color: #0c63ba;
+    color: #16a085;
     font-size: 2.5em;
     margin-bottom: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h2 {
-    color: #0c63ba;
+    color: #021612;
     font-size: 2em;
     margin-bottom: 15px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -61,7 +61,7 @@ table.highlight th, table.highlight td {
 
 table.highlight thead th {
     background-color: #2c3e50;
-    color: #fff;
+    color: black;
 }
 
 table.highlight tbody tr:hover {
